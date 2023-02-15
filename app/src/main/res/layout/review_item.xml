@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/review_profilepic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/whatatriplogopic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/review_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Hemanth Reddy"
+        app:layout_constraintBottom_toBottomOf="@+id/review_profilepic"
+        app:layout_constraintStart_toEndOf="@+id/review_profilepic"
+        app:layout_constraintTop_toTopOf="@+id/review_profilepic" />
+
+    <TextView
+        android:id="@+id/review_user_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="This tour is great and awesome recommended to every one to go and visit for at least once in a life time "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/review_profilepic" />
+
+    <TextView
+        android:id="@+id/chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="chat"
+        android:textColor="@color/purple_500"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/review_user_name"
+        app:layout_constraintEnd_toEndOf="@+id/review_user_review"
+        app:layout_constraintTop_toTopOf="@+id/review_user_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

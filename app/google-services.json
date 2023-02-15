@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228068790363",
+    "project_id": "testtrip1",
+    "storage_bucket": "testtrip1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228068790363:android:947bea55ff31fc6fe8ef7e",
+        "android_client_info": {
+          "package_name": "com.example.testwhatatrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228068790363-4thm6dkbat56ta4gqu41j7qtlk35irek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1fpevYq9S8OXiGWPl0opPD0-_NjosBAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228068790363-4thm6dkbat56ta4gqu41j7qtlk35irek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

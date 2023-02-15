@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testwhatatrip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/whatatriplogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/whatatriplogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestWhatATrip">
+        <activity android:name=".Messages"></activity>
+        <activity android:name=".Search_Activity" />
+        <activity android:name=".MyBookings" />
+        <activity android:name=".Payment" />
+        <activity android:name=".Favorites" />
+        <activity android:name=".tourdetails" />
+        <activity
+            android:name=".UserProfile"
+            android:parentActivityName=".Home" />
+        <activity android:name=".Home" />
+        <activity android:name=".Signin" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_EkYgnNlMWE1837" />
+    </application>
+
+</manifest>
